@@ -1,0 +1,13 @@
+# Project
+/cache/
+
+# CakePHP
+app/tmp/
+!empty
+
+# VIA
+webroot/node_modules/
+
+# no trailing slash to ignore possible symlink
+webroot/uploads
+webroot/files
