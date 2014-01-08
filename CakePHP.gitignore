@@ -1,0 +1,11 @@
+# CakePHP
+**/app/tmp/
+!empty
+
+# VIA
+**/webroot/node_modules/
+
+# no trailing slash to ignore possible symlink
+**/app/webroot/uploads
+**/app/webroot/files
+

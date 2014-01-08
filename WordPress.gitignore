@@ -1,0 +1,15 @@
+# WordPress
+**/wp-content/advanced-cache.php
+**/wp-content/cache/
+**/wp-content/upgrade/
+**/wp-content/backup-db/
+**/wp-content/backups/
+
+# no trailing slash to ignore possible symlink
+**/wp-content/uploads
+**/wp-content/blogs.dir
+
+# VIA
+**/wp-content/themes/*/node_modules/
+**/wp-content/themes/*/res/.htaccess
+
