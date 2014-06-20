@@ -1,0 +1,9 @@
+# Laravel
+**/app/storage/
+
+# VIA
+**/public/node_modules/
+
+# no trailing slash to ignore possible symlink
+**/public/uploads
+
