@@ -1,15 +1,14 @@
 # WordPress
-**/wp-content/advanced-cache.php
-**/wp-content/cache/
-**/wp-content/upgrade/
-**/wp-content/backup-db/
-**/wp-content/backups/
+webroot/wp-content/advanced-cache.php
+webroot/wp-content/backup-db/
+webroot/wp-content/backups/
+webroot/wp-content/cache/
+webroot/wp-content/upgrade/
+webroot/wp-content/wp-cache-config.php
 
 # no trailing slash to ignore possible symlink
-**/wp-content/uploads
-**/wp-content/blogs.dir
+webroot/wp-content/uploads
+webroot/wp-content/blogs.dir
 
-# VIA
-**/wp-content/themes/*/node_modules/
-**/wp-content/themes/*/res/.htaccess
-
+# if this file exists, it's an environment specific symlink
+webroot/wp-content/themes/*/res/.htaccess
