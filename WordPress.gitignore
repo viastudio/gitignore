@@ -12,3 +12,6 @@ webroot/wp-content/blogs.dir
 
 # if this file exists, it's an environment specific symlink
 webroot/wp-content/themes/*/res/.htaccess
+
+# built during deployment
+wp-config.php
