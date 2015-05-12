@@ -9,6 +9,7 @@ webroot/wp-content/wp-cache-config.php
 # no trailing slash to ignore possible symlink
 webroot/wp-content/uploads
 webroot/wp-content/blogs.dir
+webroot/robots.txt
 
 # if this file exists, it's an environment specific symlink
 webroot/wp-content/themes/*/res/.htaccess
