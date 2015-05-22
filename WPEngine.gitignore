@@ -8,6 +8,7 @@ Thumbs.db
 
 # wordpress specific
 wp-config.php
+wp-content/uploads
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/*
@@ -61,6 +62,10 @@ wp-content/mysql.sql
 /wp-content/themes/twentyten
 /wp-content/themes/index.php
 /wp-content/plugins/index.php
+/wp-content/plugins/hello.php
+/wp-content/themes/twentyfifteen/
+/wp-content/themes/twentyfourteen/
+/wp-content/themes/twentythirteen/
 
 # large/disallowed file types
 # a CDN should be used for these
