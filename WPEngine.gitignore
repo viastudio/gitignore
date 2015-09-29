@@ -7,6 +7,10 @@
 Thumbs.db
 webroot
 
+# Node modules in any theme and root
+wp-content/themes/*/node_modules/
+node_modules
+
 # wordpress specific
 wp-config.php
 wp-content/uploads
